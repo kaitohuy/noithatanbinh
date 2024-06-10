@@ -1,0 +1,114 @@
+@media only screen and (max-width: 1023px) and (min-width: 740px) {
+    .row {
+        margin: 0 4%;
+    }
+    #header {
+        margin: 0 4%;
+    }
+
+    .main-menu {
+        width: 30%;
+    }
+
+    .menu-item {
+        width: 14%;
+    }
+
+    .slider img {
+        margin-left: 30%;
+        width: 70%;
+    }
+
+    .text-sub-item {
+        min-height: 140px;
+    }
+}
+
+/* mobile */
+@media only screen and (max-width: 739px) {
+    .row {
+        margin: 0 2%;
+    }
+
+    .page-info .my-email {
+        display: none;
+    }
+
+    #header {
+        margin: 0 2%;
+    }
+
+    #header .search-buy,
+    .main-menu > a,
+    .menu-item,
+    .main-menu .sub-menu-2 {
+        display: none;
+    }
+
+    .header-menu {
+        background-color: rgb(147, 34, 16);
+    }
+
+    .header-menu > ul {
+        position: relative;
+    }
+
+    .header-menu .search-btn {
+        display: inline-block;
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    .header-menu .buy-btn {
+        display: inline-block;
+        width: 10%;
+        position: absolute;
+        right: 0;
+    }
+
+    .header-menu .buy-btn p {
+        display: none;
+    }
+
+    .header-menu .buy-btn i {
+        font-size: 24px;
+        position: absolute;
+    }
+
+    .sub-menu-2 li{
+        width: 400%;
+        background-color: rgba(231, 213, 91, 0.96);
+    }
+    .main-menu:hover .sub-menu-2 {
+        display: block;
+    }
+
+    .slider img {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    #content li {
+        width: 50%;
+    }
+
+    #footer {
+        min-height: 1250px;
+    }
+
+    .contact-and-help {
+        width: 100%;
+    }
+
+    .info {
+        padding-left: 0px;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .info h2 {
+        color: #f3d55b;
+        font-weight: 100;
+    }
+}
